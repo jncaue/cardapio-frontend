@@ -23,48 +23,53 @@
         <nav class="header-nav">
 
             <!-- lista não ordenada de itens dentro do cabeçalho -->
-            <ul class="nav-ul">
+            <div class="nav-ul">
 
                 <!-- itens primários da lista -->
                 <div class="nav-primary__container">
                     <li class="nav-li">
-                        <a class="li-a" href="#"><img src="assets/img/icons/icon-logo.png" alt="Icon logo"></a>
-                        <h2 class="nav-h2">Cardápio </h2>
+                        <a class="li-a icon__logo" href="#"><img src="assets/img/icons/logoMenuDev.png"
+                                alt="Icon logo"></a>
+                        <!-- <h2 class="nav-h2">Cardápio </h2> -->
                     </li>
                 </div>
 
                 <!-- itens secundários da lista -->
                 <div class="nav-secondary__container">
-                    <li class="nav-li">
+
+                    <li class="nav-li mid__items">
+                        <img class="li-img__icon" src="assets/img/icons/icons8-casa-50.png" alt="Icone home">
                         <a class="li-a" href="#">Home</a>
                     </li>
-                    <li class="nav-li">
+                    <li class="nav-li mid__items">
+                        <img class="li-img__icon" src="assets/img/icons/icons8-nova-mensagem-50.png"
+                            alt="Icone contato">
                         <a class="li-a" href="#">Contato</a>
                     </li>
-                    <li class="nav-li">
-                        <a class="li-a" href="#">Acesso ao suporte</a>
+                    <li class="nav-li mid__items">
+                        <img class="li-img__icon" src="assets/img/icons/icons8-suporte-50.png" alt="Icone suporte">
+                        <a class="li-a" href="#">Suporte</a>
                     </li>
+
                 </div>
 
                 <!-- itens terciários -->
-                <!-- barra de navegação -->
-                <div class="nav-secondary__container">
+                <!-- barra de pesquisa -->
+                <div class="nav-terciary__container">
                     <li class="nav-li">
-                        <form class="barra-pesquisa btn-primary" action="buscar.html" method="GET">
-                            <input type="text" name="q" placeholder="Pesquisar...">
-                            <button type="submit">Buscar</button>
+                        <form class="form" action="#" method="GET">
+                            <input class="form-input" type="text" name="q" placeholder="O que busca?">
+                            <button class="input-btn" type="submit">Buscar</button>
                         </form>
                     </li>
-
-
                 </div>
-            </ul>
 
+            </div>
         </nav>
     </header>
 
     <!-- meio da página -->
-    <!-- <div class="container">
+    <div class="container">
         <div class=" main">
             <div class="main-banner">
                 <h1 class="title-banner">Welcome to Our Website</h1>
@@ -72,7 +77,7 @@
             </div>
         </div>
     </div>
- -->
+
 
 
 
