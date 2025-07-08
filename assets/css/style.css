@@ -1,3 +1,5 @@
+/* Pressets gerais */
+
 *,
 *::before,
 *::after {
@@ -39,4 +41,58 @@ h4,
 h5,
 h6 {
     letter-spacing: -0.025em;
+}
+
+/* index - homepage */
+
+/* header */
+
+/* barra de navegação */
+.header-nav {
+    background-color: #4e5d55;
+
+}
+
+/* nav-primary__container */
+.nav-h2 {
+    color: #D8E6CD;
+    display: flex;
+    align-items: baseline;
+}
+
+
+
+/* divisões da barra de navegação */
+.nav-primary__container,
+.nav-secondary__container,
+.nav-terciary__container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/* lista nao ordenada */
+.nav-ul {
+    /* background-color: #3a3a3a; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    margin: 0;
+}
+
+/* itens da lista nao ordenada */
+.nav-li {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    /* padding-block: 0.5rem; */
+}
+
+/* anchors dos itens da lista nao ordenada */
+.li-a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: 600;
 }
